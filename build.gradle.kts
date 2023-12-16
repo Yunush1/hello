@@ -32,6 +32,9 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("com.okta.spring:okta-spring-boot-starter:3.0.6")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    // https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb
+    implementation("com.amazonaws:aws-java-sdk-dynamodb:1.12.619")
+
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
