@@ -1,0 +1,15 @@
+type Query{
+    getUser(id:String):User
+    getAll:[User]
+}
+type Mutation{
+    putUser(id:String,name:String,email:String,password:String,DOB:String):User
+}
+
+type User{
+    id:String
+    name:String
+    email :String
+    password:String
+    DOB:String
+}
